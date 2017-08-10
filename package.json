@@ -4,17 +4,17 @@
   "description": "creates a gulp spawn task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "",
+  "author": "Venkat Peri <venkatperi@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gulp": "^3.9.1",
     "cross-spawn": "^5.1.0",
     "gulp-util": "^3.0.8",
     "merge-stream": "^1.0.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
     "mocha": "^3.5.0"
   }
 }
